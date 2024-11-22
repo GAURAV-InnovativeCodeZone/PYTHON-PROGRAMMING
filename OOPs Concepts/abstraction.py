@@ -1,3 +1,10 @@
+                            #★ Abstraction ★#
+'''
+Abstraction is a fundamental concept in object-oriented programming (OOP).
+It allows you to hide complex implementation details and expose only the necessary parts of an object or system.
+'''
+
+
 from abc import ABC, abstractmethod
 
 class shape(ABC):
