@@ -143,4 +143,3 @@ print("tangent of number:", math.tan(90))
 
 # math.tanh() method returns the hyperbolic tangent of a number
 print("hyperbolic tangent of number:", math.tan(90))
-

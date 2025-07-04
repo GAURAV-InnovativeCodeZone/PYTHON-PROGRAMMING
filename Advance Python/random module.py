@@ -36,8 +36,8 @@ print("\n sequence after shuffle:", list4)
 
 # random() method returns a random floating number between 0 and 1
 
-random = random.random()
-print("\n random float number between 0 and 1:", random)
+random_float = random.random()
+print("\n random float number between 0 and 1:", random_float)
 
 # uniform() method returns a random floating number between the two specified numbers (both included)
 

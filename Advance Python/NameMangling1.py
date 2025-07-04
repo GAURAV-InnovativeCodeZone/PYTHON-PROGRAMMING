@@ -14,7 +14,6 @@ def add(a,b):
 
 print("file is",__name__)
 if __name__ == '__main__':
-    
     print(myfunc("Done!"))
     result = add(20,30)
-    print("Result",result)  # Output: 60    
+    print("Result",result)  # Output: 60

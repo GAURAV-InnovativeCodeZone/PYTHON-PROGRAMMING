@@ -17,16 +17,15 @@ class MyClass:
         print(f"class variable increamented to: {cls.class_var}")
     
     @classmethod
-    #example of an alternative constructor
+    # example of an alternative constructor
     def create_from_string(cls, data_string):
         value = int(data_string.split(":")[1])
         return cls(value)
 
-#calling a class method directly on the class
+# calling a class method directly on the class
 MyClass.increament_class_var()
 
-#using an alternative constructor
+# using an alternative constructor
 instance1 = MyClass.create_from_string("data :10")
 print(f"Instance 1 value: {instance1.instance_var}")
-        
-        
+
