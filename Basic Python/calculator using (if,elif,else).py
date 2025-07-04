@@ -1,4 +1,3 @@
-
 ''' Build simple calculator in python'''
 
 print("*************************")
