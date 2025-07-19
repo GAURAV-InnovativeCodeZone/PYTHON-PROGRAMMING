@@ -1,0 +1,2 @@
+This is written in w+ mode.
+This line is appended in a+ mode.
