@@ -1,5 +1,5 @@
 """
-============================ Queue Module ============================
+============================== Queue Module ==============================
 
 It handles synchronization automatically, so you don't have to manage locks yourself.
 The queue module provides multi-producer, multi-consumer FIFO queues for safe inter-thread communication.

@@ -1,15 +1,15 @@
 """
 ====================== Python 'queue' Module Methods ======================
 
-1. put(item) → Adds item, blocks if queue is full.
+1. put(item)        → Adds item, blocks if queue is full.
 2. put_nowait(item) → Adds without blocking, raises queue.Full if full.
-3. get() → Removes item, blocks if queue is empty.
-4. get_nowait() → Removes without blocking, raises queue.Empty if empty.
-5. qsize() → Returns current size.
-6. empty() → Checks if queue is empty.
-7. full() → Checks if queue is full.
-8. task_done() → Used by consumer threads to signal that a task fetched with get() is done.
-9. join() → Blocks until all items in the queue have been marked as done using task_done().
+3. get()            → Removes item, blocks if queue is empty.
+4. get_nowait()     → Removes without blocking, raises queue.Empty if empty.
+5. qsize()          → Returns current size.
+6. empty()          → Checks if queue is empty.
+7. full()           → Checks if queue is full.
+8. task_done()      → Used by consumer threads to signal that a task fetched with get() is done.
+9. join()           → Blocks until all items in the queue have been marked as done using task_done().
 """
 
 # Complete Example with All Common Methods of queue module
