@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flask Flash Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    .flash {
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .success  { background-color: #c6f6d5; color: #22543d; }
+    .info     { background-color: #bee3f8; color: #2a4365; }
+    .warning  { background-color: #faf089; color: #744210; }
+    .danger   { background-color: #feb2b2; color: #742a2a; }
+  </style>
+</head>
+<body>
+
+  <h2>🏠 This is Home Page</h2>
+  <h2> Welcome, {{ username }}! </h2>
+  <p>Try these routes to see different flash messages:</p>
+  <ul>
+    <li><a href="{{ url_for('login') }}">/login</a></li>
+    <li><a href="{{ url_for('logout') }}">/logout</a></li>
+    <li><a href="{{ url_for('error') }}">/error</a></li>
+    <li><a href="{{ url_for('permission') }}">/permission</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- Flash message display -->
+  {% with messages = get_flashed_messages(with_categories=True, category_filter=["success", "warning", "danger"]) %}
+    {% if messages %}
+      {% for category, msg in messages %}
+        <div class="flash {{ category }}">{{ msg }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+</body>
+</html>

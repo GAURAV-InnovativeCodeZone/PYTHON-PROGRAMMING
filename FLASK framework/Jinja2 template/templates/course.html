@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Page</title>
+</head>
+<body>
+    <h2>Course List</h2>
+    {% if logged_in %}
+        <p>Welcome {{ username }}! Here are the available courses:</p>
+        <ul>
+            {% for course in courses %}
+                <li>{{ course }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Please log in to view the courses.</p>
+    {% endif %}
+
+
+
+</body>
+</html>
