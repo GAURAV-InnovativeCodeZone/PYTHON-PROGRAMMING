@@ -1,0 +1,9 @@
+/* dark mode classes */
+body.dark {
+    background-color: #121212 !important;
+    color: #eaeaea !important;
+}
+.card.dark {
+    background-color: #1e1e1e !important;
+    color: #eaeaea !important;
+}

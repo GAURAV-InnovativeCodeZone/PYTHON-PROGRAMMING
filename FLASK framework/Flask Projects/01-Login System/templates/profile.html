@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4 {% if theme == 'dark' %}dark{% endif %}">
+  <h3>User Profile</h3>
+  <p><strong>Username:</strong> {{ user }}</p>
+  <p><strong>Bio:</strong> {{ bio }}</p>
+  <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Back to Dashboard</a>
+</div>
+{% endblock %}
