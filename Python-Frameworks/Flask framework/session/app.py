@@ -66,7 +66,7 @@ def logout():
                            title="Logged Out",
                            message="You are successfully logged out.",
                            link_text="Back to Login",
-                           link_url=url_for("login"))
+             link_url=url_for("login"))
 
 
 # -------------------------------------------------
