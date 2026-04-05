@@ -23,6 +23,10 @@ cursor.execute("""
 """)
 print("Table created!")
 
+# cursor.execute ("INSERT INTO employees (id, name, email, salary) VALUES (5,'Gautam', 'gautam@email.com', 20000)")
+# conn.commit();
+
+# cursor.execute ("ALTER TABLE employees AUTO_INCREMENT = 5");
 
 # Show databases
 # cursor.execute("SHOW DATABASES")
