@@ -1,25 +1,108 @@
-# Python cache files
+# =======================================
+# Python-Backend / FastAPI/Flask/Django
+# =======================================
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environments
+# Virtual environments (ALL patterns)
 venv/
-flask-venv/
+.venv/
+*venv/
+**/venv/
+**/.venv/
+**/*venv/
 env/
+ENV/
+*env/
+**/*env/
 
-# OS files
-.DS_Store
-Thumbs.db
+
+# Environment variables (secrets)
+.env
+.env.*
 
 # Logs
 *.log
 
-# IDE folders
+# Alembic (keep migrations, ignore cache)
+alembic/versions/__pycache__/
+
+instance/
+.webassets-cache/
+
+# Django DB (only if using SQLite locally)
+db.sqlite3
+db.sqlite3-journal
+
+# Django collected static files (generated)
+staticfiles/
+
+# Django media uploads (user-generated)
+media/
+
+# Django cache
+*.cache
+
+# Django migrations cache (NOT migration files)
+**/migrations/__pycache__/
+
+# =========================
+# Database files (local)
+# =========================
+
+*.sqlite3
+*.db
+
+# =========================
+#      Frontend
+# =========================
+
+node_modules/
+dist/
+build/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / Editor
+# =========================
+
 .vscode/
 .idea/
 
-# Database / temporary files
-*.sqlite3
-*.db
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Testing / Cache
+# =========================
+
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# =========================
+# AI / Temp Data
+# =========================
+
+*.pkl
+*.pickle
+
+# =========================
+# Misc
+# =========================
+
+*.pid
+*.tmp
+*.temp
