@@ -32,13 +32,32 @@ This is my structured Python learning and practice repository covering core conc
 ## 🛠️ Tech Stack Used
 
 - Python
-- Flask / FastAPI / Django
-- SQL (MySQL, PostgreSQL)
-- NoSQL Databases
-- Requests, OS, Sys
-- Pandas, NumPy (where required)
-- Automation Tools
+- Flask
+- FastAPI
+- Django(basic)
+- SQL / MySQL / PostgreSQL / ORM-SQLAlchemy
+- NoSQL-MongoDB
+- Deployment - AWS, Docker, Render, VPS, Redis, Celery, etc
+- Linux Ubuntu
+- Requests / OS / Sys modules
+- Pygame (basic game development)
+- Automation libraries
+- NumPy, Pandas, Selenium, JSON, Pickle, etc
 
+---
+
+## 🚀 Deployment & Tools
+
+- Basic deployment of Flask/FastAPI apps
+- Understanding of local server vs production server
+- Working with tools like:
+  - Gunicorn / Uvicorn
+  - Postman for API testing
+  - Git & GitHub for version control
+  - Docker, VPS
+  - Render / Railway / Vercel (for small deployments)
+
+> Note: Deployment is currently in learning phase and being improved with real projects.
 ---
 
 ## 🎯 Purpose
