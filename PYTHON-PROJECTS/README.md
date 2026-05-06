@@ -50,14 +50,14 @@ This section is focused on:
 ---
 
 ## 📁 Project Examples
+All projects are organized inside the PYTHON-PROJECTS folder.
 
 PYTHON-PROJECTS/
-│
-├── 01-User Authentication System (Flask)
-├── 02-Employee Management API (Flask + MySQL)
-├── 03-REST APIs with FastAPI
-├── 04-Automation Scripts
-├── ...
+- ├── 01-User Authentication System (Flask)
+- ├── 02-Employee Management API (Flask + MySQL)
+- ├── 03-REST APIs with FastAPI
+- ├── 04-Automation Scripts
+- ├── ...
 
 ---
 
