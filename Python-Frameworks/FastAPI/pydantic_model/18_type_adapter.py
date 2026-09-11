@@ -1,5 +1,5 @@
 # ============================================================
-#          FASTAPI + PYDANTIC - TYPEADAPTER
+#                     TYPEADAPTER
 #
 # TypeAdapter → Validates, parses and serializes Python types without requiring a BaseModel
 #
